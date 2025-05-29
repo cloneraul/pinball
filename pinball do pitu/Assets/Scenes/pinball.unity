@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 211954864}
   m_Layer: 0
   m_Name: Square (6)
-  m_TagString: Untagged
+  m_TagString: parede
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 212658160}
   m_Layer: 0
   m_Name: Square (4)
-  m_TagString: Untagged
+  m_TagString: parede
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -397,6 +397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 319163846}
   - component: {fileID: 319163845}
+  - component: {fileID: 319163847}
   m_Layer: 0
   m_Name: rampa_esquerda
   m_TagString: rampa
@@ -474,6 +475,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -0.428, y: 177.264, z: 81.117}
+--- !u!68 &319163847
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319163844}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -1.6157193, y: -0.31080458}
+  - {x: -1.7541964, y: -0.10967809}
+  - {x: -1.7498765, y: 0.11720576}
+  - {x: -1.7018335, y: 0.2126069}
+  - {x: -1.5793724, y: 0.32102945}
+  - {x: 1.5313171, y: 0.3411147}
+  - {x: 1.6171889, y: 0.29003474}
+  - {x: 1.6867907, y: 0.24266434}
+  - {x: 1.7583599, y: 0.11709057}
+  - {x: 1.7620945, y: -0.02841549}
+  - {x: 1.7514082, y: -0.16810726}
+  - {x: 1.6134503, y: -0.29960123}
+  - {x: -1.4949869, y: -0.35534623}
+  - {x: -1.6166974, y: -0.28876624}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &549129197
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,6 +540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 549129199}
   - component: {fileID: 549129198}
+  - component: {fileID: 549129200}
   m_Layer: 0
   m_Name: rampa_direita
   m_TagString: rampa
@@ -561,6 +618,64 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 85.798}
+--- !u!68 &549129200
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549129197}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 1.5867742, y: -0.30148262}
+  - {x: 1.6817031, y: -0.25142384}
+  - {x: 1.7607739, y: -0.107133575}
+  - {x: 1.7641133, y: 0.1198215}
+  - {x: 1.6818194, y: 0.2660513}
+  - {x: 1.5184519, y: 0.3527959}
+  - {x: -1.5440251, y: 0.36185843}
+  - {x: -1.7318751, y: 0.17389573}
+  - {x: -1.7667844, y: 0.05728378}
+  - {x: -1.747424, y: -0.108159736}
+  - {x: -1.7139226, y: -0.17565662}
+  - {x: -1.6741338, y: -0.25072083}
+  - {x: -1.537876, y: -0.35268453}
+  - {x: -0.25420713, y: -0.35732487}
+  - {x: 1.2968781, y: -0.35999194}
+  - {x: 1.5233523, y: -0.36786732}
+  - {x: 1.6050934, y: -0.29587483}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &584150469
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,9 +1356,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1182604040}
   - component: {fileID: 1182604039}
+  - component: {fileID: 1182604043}
   - component: {fileID: 1182604041}
   - component: {fileID: 1182604044}
-  - component: {fileID: 1182604043}
   m_Layer: 0
   m_Name: leftFlipper
   m_TagString: flipper
@@ -1314,13 +1429,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1182604038}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2551026, y: 0.966612, z: 0.009704421, w: 0.02213095}
+  m_LocalRotation: {x: -0.23152608, y: -0.9725285, z: -0.00916431, w: -0.022360833}
   m_LocalPosition: {x: 1.968, y: -2.392, z: 0.202}
   m_LocalScale: {x: 0.4219, y: 0.5462, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -0.428, y: 177.264, z: 29.578}
+  m_LocalEulerAnglesHint: {x: -0.428, y: 177.264, z: 26.792}
 --- !u!68 &1182604041
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -1398,8 +1513,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: 0
-    m_UpperAngle: -90
+    m_LowerAngle: -41.2806
+    m_UpperAngle: -22.94814
 --- !u!50 &1182604044
 Rigidbody2D:
   serializedVersion: 5
@@ -1975,7 +2090,7 @@ Transform:
   m_GameObject: {fileID: 1387707188}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.59, y: 18.81, z: 0}
+  m_LocalPosition: {x: 1.18, y: 5.28, z: 0}
   m_LocalScale: {x: 0.392535, y: 0.42733186, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2307,8 +2422,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1706763772}
   - component: {fileID: 1706763771}
-  - component: {fileID: 1706763775}
   - component: {fileID: 1706763774}
+  - component: {fileID: 1706763775}
+  - component: {fileID: 1706763776}
+  - component: {fileID: 1706763777}
   m_Layer: 0
   m_Name: rightFlipper
   m_TagString: flipper
@@ -2396,22 +2513,22 @@ HingeJoint2D:
   m_Enabled: 1
   serializedVersion: 4
   m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 1593774248}
+  m_ConnectedRigidBody: {fileID: 1717626945}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 4.346043, y: -5.677538}
+  m_ConnectedAnchor: {x: -1.5497229, y: -0.1754435}
   m_UseConnectedAnchor: 1
   m_UseMotor: 1
   m_Motor:
-    m_MotorSpeed: 80
+    m_MotorSpeed: 500
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: 0
-    m_UpperAngle: 90
+    m_LowerAngle: 162.8075
+    m_UpperAngle: 256.1453
 --- !u!50 &1706763775
 Rigidbody2D:
   serializedVersion: 5
@@ -2439,6 +2556,81 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1706763776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706763770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d14a8cc0141d24198d1e9295506355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftFlipper: {fileID: 1182604043}
+  rightFlipper: {fileID: 1706763774}
+  motorSpeed: 2000
+  motorMaxTorque: 10000
+--- !u!68 &1706763777
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706763770}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -1.4606636, y: -0.4569188}
+  - {x: -1.5771928, y: -0.40161023}
+  - {x: -1.6499742, y: -0.25084418}
+  - {x: -1.6494042, y: -0.07435151}
+  - {x: -1.5804939, y: 0.041364223}
+  - {x: -1.5029774, y: 0.093052186}
+  - {x: -1.296336, y: 0.14968243}
+  - {x: 0.89364696, y: 0.43667883}
+  - {x: 1.1391008, y: 0.45961207}
+  - {x: 1.3531072, y: 0.45246547}
+  - {x: 1.5022403, y: 0.3580833}
+  - {x: 1.5802985, y: 0.254385}
+  - {x: 1.6378558, y: 0.1558667}
+  - {x: 1.6565388, y: -0.024786308}
+  - {x: 1.6344783, y: -0.19552313}
+  - {x: 1.502578, y: -0.3503556}
+  - {x: 1.3302377, y: -0.44565192}
+  - {x: -1.4653527, y: -0.45940638}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1717626941
 GameObject:
   m_ObjectHideFlags: 0
@@ -2450,6 +2642,7 @@ GameObject:
   - component: {fileID: 1717626944}
   - component: {fileID: 1717626943}
   - component: {fileID: 1717626942}
+  - component: {fileID: 1717626945}
   m_Layer: 0
   m_Name: rampa_direita2
   m_TagString: rampa
@@ -2515,6 +2708,7 @@ EdgeCollider2D:
   - {x: -1.6064171, y: 0.3102263}
   - {x: -1.7110794, y: 0.2121743}
   - {x: -1.731878, y: 0.15189333}
+  - {x: -1.7773483, y: -0.0032717704}
   - {x: -1.7773489, y: -0.003271155}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
@@ -2590,6 +2784,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 46.244}
+--- !u!50 &1717626945
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717626941}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1903752592
 GameObject:
   m_ObjectHideFlags: 0
@@ -2603,7 +2824,7 @@ GameObject:
   - component: {fileID: 1903752593}
   m_Layer: 0
   m_Name: slingshot_0
-  m_TagString: Untagged
+  m_TagString: parede
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2749,7 +2970,7 @@ GameObject:
   - component: {fileID: 1934258739}
   m_Layer: 0
   m_Name: Square (5)
-  m_TagString: Untagged
+  m_TagString: parede
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2883,7 +3104,7 @@ GameObject:
   - component: {fileID: 2055913641}
   m_Layer: 0
   m_Name: slingshot_0 (2)
-  m_TagString: Untagged
+  m_TagString: parede
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
